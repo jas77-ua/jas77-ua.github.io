@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Javier Antón Sala — Software Engineer</title>
+  <meta name="description" content="Software engineer working with AI coding agents, Linux systems and security. Portfolio of Javier Antón Sala.">
+  <meta property="og:title" content="Javier Antón Sala — Software Engineer">
+  <meta property="og:description" content="AI-agent workflows · Systems & Security">
+  <meta property="og:url" content="https://portfolio.jabotech.me/">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f4e79'/%3E%3Ctext x='16' y='22' font-family='Arial' font-size='15' font-weight='700' fill='white' text-anchor='middle'%3EJA%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-inner">
+      <a class="brand" href="#">jabotech<span>.me</span></a>
+      <nav>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <p class="eyebrow">Elche, Spain · CET · open to remote</p>
+      <h1>Javier Antón Sala</h1>
+      <p class="role">Software Engineer — AI-agent workflows, systems &amp; security</p>
+      <p class="lead">
+        I build and run software with AI coding agents. I use Claude Code regularly (since 2025),
+        with agents working in parallel, and I review and correct what they produce before it ships.
+        My background is in Linux, networking and production databases, so I care about least privilege,
+        backups and keeping infrastructure simple.
+      </p>
+      <div class="cta">
+        <a class="btn primary" href="#projects">See projects</a>
+        <a class="btn" href="https://github.com/jas77-ua" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/javierant%C3%B3nsala" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+
+    <section id="projects" class="wrap">
+      <h2>Selected projects</h2>
+      <div class="grid">
+        <article class="card featured">
+          <div class="card-head">
+            <h3>EatDaSushi</h3>
+            <span class="tag accent">Built with Claude Code</span>
+          </div>
+          <p>Real-time collaborative counter for all-you-can-eat sushi. Friends join a room by code and see shared counts and statistics update live. Deployed to production on a Linux server.</p>
+          <ul>
+            <li>Admin panel with bcrypt-hashed credentials, rate limiting and usage stats</li>
+            <li>PDF export of each session</li>
+            <li>Built with parallel agents and subagents; every change reviewed before deploying</li>
+          </ul>
+          <p class="stack">React · Vite · Tailwind · Node.js/Express · Socket.io · PM2</p>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <h3>Parents' association website</h3>
+            <span class="tag">Client · in production</span>
+          </div>
+          <p>Members' website for the parents' association of a secondary school, live since July 2025. It mixes hand-written code with AI-assisted development.</p>
+          <ul>
+            <li>WordPress with custom plugins and custom post types</li>
+            <li>Payment gateway for members' annual fees</li>
+          </ul>
+          <p class="stack">WordPress · PHP · REST APIs · payments</p>
+          <a class="link" href="https://www.ampatirantloblancelx.com/" target="_blank" rel="noopener">ampatirantloblancelx.com ↗</a>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <h3>Buki</h3>
+            <span class="tag">In progress</span>
+          </div>
+          <p>Book-centred social network: reading lists (to read, reading, read), reviews and, in the next iteration, discussion threads.</p>
+          <ul>
+            <li>Email and password auth with Auth.js</li>
+            <li>Linting, formatting and tests on every commit (Husky, Vitest)</li>
+          </ul>
+          <p class="stack">Next.js · TypeScript · Tailwind · Prisma · PostgreSQL · Auth.js</p>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <h3>Self-hosted cloud</h3>
+            <span class="tag">Homelab</span>
+          </div>
+          <p>OwnCloud server on a Raspberry Pi for file storage and sync, served over HTTPS, with scheduled backups.</p>
+          <p class="stack">Raspberry Pi · Linux · OwnCloud · HTTPS</p>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <h3>Infrastructure lab</h3>
+            <span class="tag">University</span>
+          </div>
+          <p>Full service stack deployed and documented on FreeBSD, Debian and Windows Server: DNS, mail, directory, reverse proxy and backups, plus Cisco network labs.</p>
+          <p class="stack">BIND9 · Postfix/Dovecot · OpenLDAP · NGINX/Apache · Bacula · Cisco</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="wrap">
+      <h2>Experience</h2>
+      <ol class="timeline">
+        <li>
+          <div class="when">2025 – 2026</div>
+          <div>
+            <h3>Relational Database Developer <span class="at">· Grupo GTT, Alicante</span></h3>
+            <p>Diagnosed and resolved incidents in clients' production databases with Oracle SQL and PL/SQL. Automated recurring tasks with scripts versioned in Git/GitLab. Optimised a production process from over 5 hours to 30 minutes.</p>
+          </div>
+        </li>
+        <li>
+          <div class="when">2024 – 2025</div>
+          <div>
+            <h3>Freelance Web Developer <span class="at">· Elche</span></h3>
+            <p>Designed, built and deployed websites for clients, including a members' platform with online fee payments.</p>
+          </div>
+        </li>
+        <li>
+          <div class="when">2022 – 2027</div>
+          <div>
+            <h3>BSc Computer Engineering <span class="at">· University of Alicante</span></h3>
+            <p>Specialisation in systems administration, networks and security. Expected 2027.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section id="skills" class="wrap">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div><h3>AI-assisted development</h3><p>Claude Code, parallel agents and subagents, reviewing agent output</p></div>
+        <div><h3>Web &amp; backend</h3><p>JavaScript, React, Node.js/Express, Socket.io, WordPress; working knowledge of Python/FastAPI, TypeScript, Vue</p></div>
+        <div><h3>Databases</h3><p>Oracle SQL &amp; PL/SQL, PostgreSQL (Prisma), MySQL, MongoDB</p></div>
+        <div><h3>Infrastructure</h3><p>Linux, FreeBSD, Windows Server, Docker/Podman, NGINX, Apache, Git/GitHub/GitLab; basic GitHub Actions and AWS</p></div>
+        <div><h3>Networking &amp; security</h3><p>Cisco (VLANs, EIGRP, ACLs, IPsec VPN), Wireshark, LDAP, backups</p></div>
+        <div><h3>Languages</h3><p>Spanish (native), English (B2 Cambridge), Valencian, German (A1)</p></div>
+      </div>
+    </section>
+
+    <section id="contact" class="wrap contact">
+      <h2>Contact</h2>
+      <p>Open to remote roles in Europe (CET). The quickest way to reach me is by email.</p>
+      <div class="cta">
+        <a class="btn primary" href="mailto:jdotcpp@gmail.com">jdotcpp@gmail.com</a>
+        <a class="btn" href="https://github.com/jas77-ua" target="_blank" rel="noopener">github.com/jas77-ua</a>
+        <a class="btn" href="https://www.linkedin.com/in/javierant%C3%B3nsala" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap foot">
+    <p>© <span id="y">2026</span> Javier Antón Sala · Static site on GitHub Pages</p>
+  </footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
